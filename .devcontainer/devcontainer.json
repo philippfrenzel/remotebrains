@@ -24,10 +24,7 @@
                 "8.1-buster",
                 "8.0-buster"
             ],
-            "default": "8.2",
-            "extensions" : {
-                ["php-intl","php-curl"]
-            }
+            "default": "8.2"
         }
     },
     "platforms": [
