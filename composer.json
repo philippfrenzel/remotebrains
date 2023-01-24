@@ -184,7 +184,9 @@
         "allow-plugins": {
             "yiisoft/config": true,
             "infection/extension-installer": true,
-            "codeception/c3": true
+            "codeception/c3": true,
+            "composer/installers": true,
+            "oomphinc/composer-installers-extender": true
         }
     },
     "repositories": [{

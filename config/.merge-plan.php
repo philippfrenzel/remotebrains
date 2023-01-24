@@ -65,6 +65,9 @@ return [
             'yiisoft/user' => [
                 'config/params.php',
             ],
+            'yiisoft/yii-bootstrap5' => [
+                'config/params.php',
+            ],
             'yiisoft/yii-view' => [
                 'config/params.php',
             ],
@@ -99,6 +102,9 @@ return [
                 'config/params.php',
             ],
             'yiisoft/view' => [
+                'config/params.php',
+            ],
+            'yiisoft/widget' => [
                 'config/params.php',
             ],
             'yiisoft/yii-debug' => [
@@ -254,6 +260,22 @@ return [
                 'events-web.php',
             ],
         ],
+        'bootstrap' => [
+            'yiisoft/widget' => [
+                'config/bootstrap.php',
+            ],
+            '/' => [
+                'bootstrap.php',
+            ],
+        ],
+        'widgets' => [
+            'yiisoft/widget' => [
+                'config/widgets.php',
+            ],
+            '/' => [
+                'widgets.php',
+            ],
+        ],
         'providers' => [
             'yiisoft/yii-debug' => [
                 'config/providers.php',
@@ -296,20 +318,10 @@ return [
                 'delegates-console.php',
             ],
         ],
-        'bootstrap' => [
-            '/' => [
-                'bootstrap.php',
-            ],
-        ],
         'bootstrap-console' => [
             '/' => [
                 '$bootstrap',
                 'bootstrap-console.php',
-            ],
-        ],
-        'widgets' => [
-            '/' => [
-                'widgets.php',
             ],
         ],
     ],
