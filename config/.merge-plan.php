@@ -24,6 +24,12 @@ return [
             'yiisoft/router' => [
                 'config/common.php',
             ],
+            'yiisoft/translator' => [
+                'config/common.php',
+            ],
+            'yiisoft/validator' => [
+                'config/common.php',
+            ],
             'yiisoft/view' => [
                 'config/common.php',
             ],
@@ -33,9 +39,6 @@ return [
             'yiisoft/profiler' => [
                 'config/common.php',
             ],
-            'yiisoft/validator' => [
-                'config/common.php',
-            ],
             'yiisoft/yii-filesystem' => [
                 'config/common.php',
             ],
@@ -43,9 +46,6 @@ return [
                 'config/common.php',
             ],
             'yiisoft/aliases' => [
-                'config/common.php',
-            ],
-            'yiisoft/translator' => [
                 'config/common.php',
             ],
             'yiisoft/yii-event' => [
@@ -60,6 +60,9 @@ return [
                 'config/params.php',
             ],
             'yiisoft/router-fastroute' => [
+                'config/params.php',
+            ],
+            'yiisoft/user' => [
                 'config/params.php',
             ],
             'yiisoft/yii-view' => [
@@ -89,6 +92,12 @@ return [
             'yiisoft/log-target-file' => [
                 'config/params.php',
             ],
+            'yiisoft/translator' => [
+                'config/params.php',
+            ],
+            'yiisoft/validator' => [
+                'config/params.php',
+            ],
             'yiisoft/view' => [
                 'config/params.php',
             ],
@@ -98,16 +107,10 @@ return [
             'yiisoft/profiler' => [
                 'config/params.php',
             ],
-            'yiisoft/validator' => [
-                'config/params.php',
-            ],
             'yiisoft/yii-queue' => [
                 'config/params.php',
             ],
             'yiisoft/aliases' => [
-                'config/params.php',
-            ],
-            'yiisoft/translator' => [
                 'config/params.php',
             ],
             'yiisoft/yii-console' => [
@@ -120,6 +123,9 @@ return [
         ],
         'web' => [
             'yiisoft/router-fastroute' => [
+                'config/web.php',
+            ],
+            'yiisoft/user' => [
                 'config/web.php',
             ],
             'yiisoft/yii-view' => [
