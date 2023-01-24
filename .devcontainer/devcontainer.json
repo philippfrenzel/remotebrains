@@ -1,34 +1,9 @@
 {
-    "id": "php-mariadb",
-    "version": "1.2.2",
-    "name": "PHP & MariaDB",
-    "description": "Develop PHP applications with MariaDB (MySQL Compatible).",
-    "documentationURL": "https://github.com/devcontainers/templates/tree/main/src/php-mariadb",
-    "publisher": "Dev Container Spec Maintainers",
-    "licenseURL": "https://github.com/devcontainers/templates/blob/main/LICENSE",
-    "options": {
-        "imageVariant": {
-            "type": "string",
-            "description": "PHP version (use -bullseye variants on local arm64/Apple Silicon):",
-            "proposals": [
-                "8",
-                "8.2",
-                "8.1",
-                "8.0",
-                "8-bullseye",
-                "8.2-bullseye",
-                "8.1-bullseye",
-                "8.0-bullseye",
-                "8-buster",
-                "8.2-buster",
-                "8.1-buster",
-                "8.0-buster"
-            ],
-            "default": "8.2"
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/shyim/devcontainers-features/php:latest": {
+            "version": "8.2",
+            "extensionsExtra": "xdebug redis php-intl"
         }
-    },
-    "platforms": [
-        "PHP",
-        "MariaDB (MySQL Compatible)"
-    ]
+    }
 }
