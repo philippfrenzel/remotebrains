@@ -39,6 +39,13 @@ $this->beginPage()
 <body>
 <?php $this->beginBody() ?>
 
+<?php //create bootstrap navbar with yiisoft/yii-bootstrap5 ?>
+
+<?= $this->render('navbar', [
+    'currentRoute' => $currentRoute,
+    'urlGenerator' => $urlGenerator,
+]) ?>
+
 <div class="header">
     <a href="https://www.yiiframework.com/" target="_blank" rel="noopener">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 216.495">
